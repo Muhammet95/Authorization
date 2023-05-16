@@ -1,0 +1,23 @@
+@media (max-width: 1190px) {
+    .container_2 > .content_block {
+        gap: 50px !important;
+    }
+}
+
+@media (max-width: 1070px) {
+    .container_2 > .content_block > .recommendations {
+        display: none !important;
+    }
+}
+
+@media (max-width: 680px) {
+    .container_2 > .menu > .elems > div.elem > span {
+        display: none !important;
+    }
+    .container_2 > .menu > i {
+        display: none !important;
+    }
+    .container_2 > .menu > svg {
+        display: block !important;
+    }
+}
